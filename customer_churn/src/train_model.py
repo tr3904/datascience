@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import pickle
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -35,4 +29,3 @@ with open("../model/churn_model.pkl", "wb") as f:
     pickle.dump(model, f)
 
 print("Model saved successfully!")
-
