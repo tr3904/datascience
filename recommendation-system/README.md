@@ -11,7 +11,3 @@ This project is a Netflix-style recommendation system using machine learning.
 ## Tech Stack
 Python, Pandas, Scikit-learn, FastAPI
 
-## Run Locally
-```bash
-python train.py
-uvicorn app:app --reload
