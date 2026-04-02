@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
@@ -27,4 +21,3 @@ def preprocess_data(df):
     y = df["Churn"]
 
     return X, y
-
