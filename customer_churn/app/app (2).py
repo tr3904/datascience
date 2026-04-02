@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import streamlit as st
 import pickle
 import pandas as pd
@@ -37,7 +31,7 @@ input_data = pd.DataFrame([{
 if st.button("Predict"):
     result = model.predict(input_data)
     if result[0] == 1:
-        st.error("Customer is likely to churn ❌")
+        st.error("Customer is likely to churn")
     else:
-        st.success("Customer will stay ✅")
+        st.success("Customer will stay")
 
