@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import pickle
 import pandas as pd
 
@@ -26,4 +20,3 @@ sample = {
 }
 
 print(predict_new(sample))
-
